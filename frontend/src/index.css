@@ -6,6 +6,11 @@
 a.active {
   @apply border-b-2 border-[#C586A5] pb-[4px];
 }
+@media (max-width: 640px) {
+  a.active {
+    @apply bg-[#C586A5] text-white;
+  }
+}
 
 * {
   font-family: "Outfit", sans-serif;
