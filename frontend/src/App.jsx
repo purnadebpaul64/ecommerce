@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import PlaceOrder from "./pages/PlaceOrder";
 import Order from "./pages/Order";
 import Navbar from "./components/shared/Navbar";
+import Footer from "./components/shared/Footer";
 const App = () => {
   return (
     <div className="w-11/12 mx-auto">
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/place-order" element={<PlaceOrder></PlaceOrder>} />
         <Route path="/orders" element={<Order></Order>} />
       </Routes>
+      <Footer />
     </div>
   );
 };
